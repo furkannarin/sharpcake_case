@@ -1,0 +1,49 @@
+{
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "files.eol": "\n",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#05ef3c"
+    },
+    "files.exclude": {
+        // native
+        "**/ios": false,
+        "**/android": false,
+        // deps
+        "**/node_modules": true,
+        "**/yarn.lock": true,
+        "**/package-lock.json": true,
+        "**/Gemfile": true,
+        "**/Gemfile.lock": true,
+        "vendor": true,
+        ".bundle": true,
+        // configs
+        "**/.eslintrc.**": true,
+        "**/tsconfig.json": true,
+        "react-native.config.js": true,
+        "**/jest.config.js": true,
+        "**/setup-tests.js": true,
+        "**/babel.config.js": true,
+        "**/metro.config.js": true,
+        "**/.watchmanconfig": true,
+        // git
+        "**/.git": true,
+        "**/.gitignore": true,
+        // other
+        "**/app.json": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/os/**": true,
+        "**/android/**": true,
+        "**/dist/**": true
+    }
+}
